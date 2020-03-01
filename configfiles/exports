@@ -1,0 +1,1 @@
+/pxe-server/nfs *(ro,sync,no_wdelay,insecure_locks,no_root_squash,insecure,no_subttree_check)
