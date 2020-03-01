@@ -2,19 +2,25 @@
 # Debian
 # dnsmasq
 # nfs-kernel-server
+echo "###### Installing dnsmasq and nfs #########"
 apt install -y dnsmasq nfs-kernel-server
 
 # copy dnsmaq config
+echo "###### copy dnsmasq config file #########"
 cp configfiles/dnsmasq.conf /etc
 
 # restart dnsmasq
+echo "###### Restart dnsmasq service #########"
 systemctl restart dnsmasq.service
 
 # copy export file
+echo "###### Copy export file #########"
 cp configfiles/exports /etc/exports
 
 # create directory layout
+echo "###### create directory layout #########"
 mkdir -p /pxe-server/{tftp,nfs,iso}
 
 # export nfs
+echo "###### Export nfs #########"
 exportfs -va
