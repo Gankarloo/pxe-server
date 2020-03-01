@@ -1,0 +1,12 @@
+Scripts to create
+* load-iso
+  loopmount iso
+  hard link initrd and kernel
+  present the rest via nfs
+
+* unload-iso
+  reverse of load-iso
+
+* webserver
+
+* install

@@ -1,0 +1,5 @@
+export PATH="/home/gustaf/projects/pxe-server/local/bin:/home/gustaf/projects/test1/local/bin:/home/gustaf/projects/test1/local/bin:/home/gustaf/bin:/home/gustaf/.local/bin:/home/gustaf/bin:/home/gustaf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/rakudo-star-2017.10/bin:/opt/rakudo-star-2017.10/share/perl6/site/bin:/home/gustaf/bin:/opt/rakudo-star-2017.10/bin:/opt/rakudo-star-2017.10/share/perl6/site/bin:/home/gustaf/bin"
+export PERL5LIB="/home/gustaf/projects/pxe-server/local/lib/perl5"
+export PERL_LOCAL_LIB_ROOT="/home/gustaf/projects/pxe-server/local"
+export PERL_MB_OPT="--install_base \"/home/gustaf/projects/pxe-server/local\""
+export PERL_MM_OPT="INSTALL_BASE=/home/gustaf/projects/pxe-server/local"

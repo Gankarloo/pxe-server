@@ -1,0 +1,6 @@
+/home/gustaf/projects/pxe-server/local/bin/cpanm
+/home/gustaf/projects/pxe-server/local/lib/perl5/App/cpanminus.pm
+/home/gustaf/projects/pxe-server/local/lib/perl5/App/cpanminus/fatscript.pm
+/home/gustaf/projects/pxe-server/local/man/man1/cpanm.1p
+/home/gustaf/projects/pxe-server/local/man/man3/App::cpanminus.3pm
+/home/gustaf/projects/pxe-server/local/man/man3/App::cpanminus::fatscript.3pm

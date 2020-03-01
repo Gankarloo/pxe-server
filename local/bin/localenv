@@ -1,0 +1,13 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+use lib '/home/gustaf/projects/pxe-server/local/lib/perl5';
+use local::lib '/home/gustaf/projects/pxe-server/local';
+
+unless ( caller ) {
+    if ( @ARGV ) {
+        exec @ARGV;
+    }
+}

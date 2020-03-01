@@ -1,0 +1,1 @@
+eval $(/usr/bin/perl -I/home/gustaf/projects/pxe-server/local/lib/perl5 -Mlocal::lib=/home/gustaf/projects/pxe-server/local)
