@@ -2,4 +2,4 @@
 # Debian
 # dnsmasq
 # nfs-kernel-server
-apt install -y dnsmasq nfs-kernetl-server
+apt install -y dnsmasq nfs-kernel-server
