@@ -3,3 +3,18 @@
 # dnsmasq
 # nfs-kernel-server
 apt install -y dnsmasq nfs-kernel-server
+
+# copy dnsmaq config
+cp configfiles/dnsmasq.conf /etc
+
+# restart dnsmasq
+systemctl restart dnsmasq.service
+
+# copy export file
+cp configfiles/exports /etc/exports
+
+# create directory layout
+mkdir -p /pxe-server/{tftp,nfs,iso}
+
+# export nfs
+exportfs -va
