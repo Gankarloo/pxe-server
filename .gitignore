@@ -1,2 +1,3 @@
 .perl5proj
 *.swp
+local/man/*
